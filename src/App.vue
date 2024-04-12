@@ -1,8 +1,9 @@
 <template>
   <HeaderComponent />
   <main>
-    <ExpenseComponent/>
-    <ListToDoComponent/>
+    <ExpenseComponent />
+    <ListToDoComponent />
+    <InfoComponent />
   </main>
 </template>
 
@@ -10,16 +11,16 @@
 import ExpenseComponent from './components/ExpenseComponent.vue';
 import HeaderComponent from './components/HeaderComponent.vue';
 import ListToDoComponent from './components/ListToDoComponent.vue';
-  export default {
-    name: 'App',
-    components: {
-      HeaderComponent,
-      ExpenseComponent,
-      ListToDoComponent
-    }
+import InfoComponent from './components/InfoComponent.vue';
+export default {
+  name: 'App',
+  components: {
+    HeaderComponent,
+    ExpenseComponent,
+    ListToDoComponent,
+    InfoComponent
   }
+}
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
